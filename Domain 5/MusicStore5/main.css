@@ -1,0 +1,71 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    background-color: #f7d2aa
+}
+p {
+    color: navy;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+}
+h1 {
+    font-size: 18pt;
+}
+figcaption {
+    color:#032f0d;
+    font-weight: bold;
+    background-color: #AAEEFF;
+    display:inline;
+}
+.sale {
+    font-weight: bold;
+    background-color: #AAEEFF;
+    font-style:italic;
+}
+.leftindent {
+    /*text-indent:5em;*/
+    padding-left: 5em;
+}
+#sidenote {
+    background-color: #333333;
+    display: inline;
+    font-weight: bold;
+    float: right;
+    width: 200px;
+    height: 200px;
+    /*border-color: navy;
+    border-style: dashed;
+    border-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 2px;*/
+    border: 2px solid navy;
+    color: #f7d2aa;
+}
+#pagewidth {
+    width:500px;
+}
+a {
+    text-decoration: none;
+    color:darkgreen;
+}
+a:active {
+    color:#63f60a;
+}
+a:visited {
+    color:#808080;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Palatino Linotype','Times New Roman', serif;
+}
+td.vbot {
+    vertical-align:bottom;
+    height: 30px;
+}
+@media only screen and (max-width:500px) {
+    body {
+        background-color:white;
+    }
+}
